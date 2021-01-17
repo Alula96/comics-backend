@@ -1,5 +1,6 @@
-const { getPaginatedIssues } = require('./issue.controller');
+const { getPaginatedIssues, getIssueDetails } = require('./issue.controller');
 
 module.exports.controllers = {
-  getPaginatedIssues
+  getPaginatedIssues,
+  getIssueDetails
 };

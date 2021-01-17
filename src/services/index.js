@@ -1,5 +1,6 @@
-const { getIssues } = require('./issue.service');
+const { getIssues, getIssue } = require('./issue.service');
 
 module.exports.services = {
-  getIssues
+  getIssues,
+  getIssue
 };
