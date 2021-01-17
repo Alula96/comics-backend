@@ -1,5 +1,5 @@
 /**
- * Save default messages to be send in error responses.
+ * Define default messages to be send in error responses.
  */
 
 module.exports = {

@@ -1,7 +1,9 @@
 const express = require('express');
-const { ErrorResponse } = require('./models/error-response.model');
+const { models } = require('./models');
+
 const app = express();
 const routes = require('./routes/routes');
+const { ErrorResponse } = models;
 
 app.use('/api', routes);
 
