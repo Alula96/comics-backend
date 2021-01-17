@@ -143,9 +143,12 @@ To know the project's coverage, you should execute:
 
 ---
 
-## TODO Dependencies
+## Dependencies
 
 The next dependencies are used in this project:
+
+- [Axios](https://www.npmjs.com/package/axios) to make http requests.
+- [Express](https://www.npmjs.com/package/express) as framework.
 
 ---
 
