@@ -1,0 +1,27 @@
+{
+  "name": "comics-backend",
+  "version": "1.0.0",
+  "description": "Backend in nodejs that consumes the COMIC VINE api.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alula96/comics-backend.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "comicvine",
+    "api",
+    "RESTful"
+  ],
+  "author": "Maria Paula Rodriguez Escobar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alula96/comics-backend/issues"
+  },
+  "homepage": "https://github.com/Alula96/comics-backend#readme"
+}
